@@ -5,13 +5,15 @@ import FormInput from "../form-input/form-input";
 import './sign-up.style.scss';
 import Button from "../button/button.component";
 
+
 const defaultFormFeilds={
   displayName:'', email:'', password:'',conformPassword:'',
 }
     const SignUpForm=()=>{
         const [formFields,setFormFields] =useState(defaultFormFeilds);
         const {displayName,email,password,conformPassword}=formFields;
-            console.log(formFields);
+      
+
             const resertFormFields=()=>{
                 setFormFields(defaultFormFeilds);
             }
@@ -25,6 +27,7 @@ const defaultFormFeilds={
                 }
                 try {
                     const {user}=await createAuthUserWithEmailAndPassword(email,password);
+                   
                    await createUserDocumentFromAuth(user,{displayName});
                    resertFormFields();
                 } catch (error) {
