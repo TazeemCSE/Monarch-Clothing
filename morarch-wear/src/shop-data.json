@@ -1,0 +1,57 @@
+[
+    {
+      "id": 1,
+      "name": "  Black Brim",
+      "imageUrl": "https://images.pexels.com/photos/674268/pexels-photo-674268.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": "100₹"
+    },
+    {
+      "id": 2,
+      "name": "  Red Nike",
+      "imageUrl": "https://images.pexels.com/photos/1124465/pexels-photo-1124465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": "120₹"
+    },
+    {
+      "id": 3,
+      "name": "  Stylish NY",
+      "imageUrl": "https://images.pexels.com/photos/1215445/pexels-photo-1215445.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": "150₹"
+    },
+    {
+      "id": 4,
+      "name": "Classic ",
+      "imageUrl": "https://images.pexels.com/photos/704857/pexels-photo-704857.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price":"190₹"
+    },
+    {
+      "id": 5,
+      "name": "Brown Motors",
+      "imageUrl": "https://images.pexels.com/photos/954254/pexels-photo-954254.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": "200₹"
+    },
+    {
+      "id": 6,
+      "name": "Pink Queen",
+      "imageUrl": "https://images.pexels.com/photos/1475384/pexels-photo-1475384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": "220₹"
+    },
+    {
+      "id": 7,
+      "name": "Creamy",
+      "imageUrl": "https://images.pexels.com/photos/458649/pexels-photo-458649.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": "300₹"
+    },
+    {
+      "id": 8,
+      "name": "Blue Sky",
+      "imageUrl": "https://images.pexels.com/photos/1261422/pexels-photo-1261422.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": "300₹"
+    },
+    {
+      "id": 9,
+      "name": "Dual ",
+      "imageUrl": "https://images.pexels.com/photos/9811637/pexels-photo-9811637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": "500₹"
+    }
+  ]
+  
