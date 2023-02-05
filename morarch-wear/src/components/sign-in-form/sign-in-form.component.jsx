@@ -5,6 +5,7 @@ import FormInput from "../form-input/form-input";
 import './sign-in-form.style.scss';
 import Button from "../button/button.component";
 import { UserContext } from "../../context/context.component";
+import { BUTTON_TYPE_CLASSES } from "../button/button.component";
 
 const defaultFormFeilds={
    email:'', password:'',
@@ -58,7 +59,7 @@ const defaultFormFeilds={
                     <FormInput label='Password' required type='password'onChange={handleChange} name='password' value={password} />
                     <div className="buttons-container">
                     <Button  type="submit">Sign-In</Button>
-                    <Button type='botton' buttonType='google' onClick={signInWithgoogle  }>Google Sign-in</Button>
+                    <Button type='botton' buttonType={BUTTON_TYPE_CLASSES.google} onClick={signInWithgoogle  }>Google Sign-in</Button>
                     </div>
                     
              </form>
